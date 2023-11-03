@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/yer_resmi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yer_adii"
+            android:text="YER ADI"
+            android:gravity="center"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:textColor="#D11D2C" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yer_tanıtıcı_metin"
+            android:text="TANITICI METİN"
+            android:gravity="center"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:textColor="#BA0B0B" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yer_konum"
+            android:text="KONUM"
+            android:gravity="center"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:textColor="#BA0B0B" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yer_izleme_butonu"
+            android:text="VİDEOSUNU İZLE"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:textColor="@color/white" />
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

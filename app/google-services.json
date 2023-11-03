@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "362516223984",
+    "project_id": "seyahat-uygulamasi-fbb9b",
+    "storage_bucket": "seyahat-uygulamasi-fbb9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362516223984:android:53153040801b2a2312ef35",
+        "android_client_info": {
+          "package_name": "com.example.seyahat_rehber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362516223984-h3rupltoftlalbju8qt7qtl7f8nn8rbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seyahat_rehber",
+            "certificate_hash": "cf955a6a49df451b11fa12a559b81ddc6dbf51ae"
+          }
+        },
+        {
+          "client_id": "362516223984-q8fp2sd3d99lvdi5pmtevmcgfe7les4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ir-PZiiFHAbpRJnVS5T1pN7iNIfmWfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362516223984-q8fp2sd3d99lvdi5pmtevmcgfe7les4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_yer_adi"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Yer Adı"
+            app:met_textColorHint="#000"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="16sp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            app:met_textColorHint="#000"
+            android:id="@+id/edt_tanıtıcı_metin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Tantıcı metin"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="16sp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            app:met_textColorHint="#000"
+            android:id="@+id/edt_konum"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Konum"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="16sp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            app:met_textColorHint="#000"
+            android:id="@+id/edt_izleme_linki"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="İzleme linki"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSec"
+                android:text="RESİM SEÇ"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                />
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnYukle"
+                android:text="RESMİ YÜKLE"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
